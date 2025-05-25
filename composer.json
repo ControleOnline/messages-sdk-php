@@ -1,0 +1,24 @@
+{
+  "name": "controleonline/messages-sdk",
+  "description": "SDK em to integrate a messages API",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Controle Online",
+      "email": "ti@controleonline.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "ControleOnline\\Messages\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
