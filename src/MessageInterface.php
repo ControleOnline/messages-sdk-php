@@ -3,7 +3,7 @@
 namespace ControleOnline\Messages;
 
 
-interface MessagesInterface
+interface MessageInterface
 {
     public function validate(): self;
 
