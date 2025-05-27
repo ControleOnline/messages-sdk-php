@@ -22,4 +22,8 @@ interface MessageInterface
     public function getMessageContent(): ContentInterface;
 
     public function setMessageContent(ContentInterface $message_content): self;
+
+    public function getAction(): string;
+
+    public function setAction(string $action): self;
 }
