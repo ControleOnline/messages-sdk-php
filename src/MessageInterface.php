@@ -7,9 +7,9 @@ interface MessageInterface
 {
     public function validate(): self;
 
-    public function getOriginNumber(): int;
+    public function getOriginNumber(): string;
 
-    public function setOriginNumber(int $origin_number): self;
+    public function setOriginNumber(string $origin_number): self;
 
     public function getDestinationNumber(): string;
 
