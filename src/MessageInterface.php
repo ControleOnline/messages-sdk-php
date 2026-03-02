@@ -5,25 +5,25 @@ namespace ControleOnline\Messages;
 
 interface MessageInterface
 {
-    public function validate(): self;
+    public function validate(): static;
 
     public function getOriginNumber(): string;
 
-    public function setOriginNumber(string $origin_number): self;
+    public function setOriginNumber(string $origin_number): static;
 
     public function getDestinationNumber(): string;
 
-    public function setDestinationNumber(string $destination_number): self;
+    public function setDestinationNumber(string $destination_number): static;
 
     public function getMessageId(): string;
 
-    public function setMessageId(string $message_id): self;
+    public function setMessageId(string $message_id): static;
 
     public function getMessageContent(): ContentInterface;
 
-    public function setMessageContent(ContentInterface $message_content): self;
+    public function setMessageContent(ContentInterface $message_content): static;
 
     public function getAction(): string;
 
-    public function setAction(string $action): self;
+    public function setAction(string $action): static;
 }
