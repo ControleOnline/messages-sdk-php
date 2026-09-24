@@ -1,3 +1,5 @@
 [submodule "docs/wiki"]
 	path = docs/wiki
 	url = https://github.com/ControleOnline/messages-sdk-php.wiki.git
+
+	branch = dev
